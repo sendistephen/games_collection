@@ -1,0 +1,4 @@
+# Environments
+*Django01
+/.vscode/
+/db.sqlite3
