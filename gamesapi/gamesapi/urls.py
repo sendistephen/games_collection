@@ -17,5 +17,6 @@ from django.conf.urls import url, include
 from games import urls
 
 urlpatterns = [
-    url(r'^',include(urls)),
+    url(r'^', include(urls)),
+    url(r'api-auth/', include('rest_framework.urls'))
 ]
